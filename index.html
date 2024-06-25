@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Viagem Chile</title>
+	<meta charset="utf-8">
+
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!-- Leaflet - Mapa -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+
+	<div id="container"><!-- Início container -->
+		
+		<header><!-- Início header -->
+
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+
+			<nav><!-- Início nav -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Santiago</a></li>
+			    <li><a href="#">Valparaiso</a></li>
+			    <li><a href="#">Cajón del Maipo</a></li>
+			    <li><a href="#">Laguna de los Incas</a></li>
+				</ul>
+			</nav><!--/fim nav -->
+
+		</header><!--/fim header -->
+		
+		<div id="principal"><!-- Início principal -->
+
+			<div id="map"></div>
+			<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		
+			<aside id="roteiro"><!-- Início aside -->
+				<h1 class="titulo">VALPARAISO</h1>
+				<p class="data">15.09.2024</p>
+
+				<div class="precircle">
+					<div class="circle">1</div>
+					<a href='https://www.google.com/maps?q=-33.34787728855459, -71.346947425633' target='_blank'><img class="img2" src='img/icon_seta.png' alt='Placeholder Image 1'></a>
+					<p class="lista2"><a class="teste" href="#" onclick="centerMap(-33.34787728855459, -71.346947425633); return false;">Mercado Rio Tinto</a></p>
+				</div>
+
+				<div class="precircle">
+					<div class="circle">2</div>
+					<a href='https://www.google.com/maps?q=-32.943689652096694, -71.54676003255767' target='_blank'><img class="img2" src='img/icon_seta.png' alt='Placeholder Image 1'></a>
+					<p class="lista2"><a class="teste" href="#" onclick="centerMap(-32.943689652096694, -71.54676003255767); return false;">Dunas de Concón</a></p>
+				</div>
+
+				<div class="precircle">
+					<div class="circle">3</div>
+					<a href='https://www.google.com/maps?q=-32.92900261279856, -71.55135075300018' target='_blank'><img class="img2" src='img/icon_seta.png' alt='Placeholder Image 1'></a>
+					<p class="lista2"><a class="teste" href="#" onclick="centerMap(-32.92900261279856, -71.55135075300018); return false;">Punta Concón</a></p>
+				</div>
+
+				<div class="precircle">
+					<div class="circle">4</div>
+					<a href='https://www.google.com/maps?q=-32.96257639913099, -71.5469362127918' target='_blank'><img class="img2" src='img/icon_seta.png' alt='Placeholder Image 1'></a>
+					<p class="lista2"><a class="teste" href="#" onclick="centerMap(-32.96257639913099, -71.5469362127918); return false;">Reñaca Playa</a></p>
+			</div>
+
+				<p class="lista">
+					01	Mercado Rio Tinto<br>
+					02	Dunas de Concón<br>
+					03	Reñaca Playa<br>
+					04	Casino de Viña del Mar<br>
+					05	Estatua Moai - Museo Fonk<br>
+					06	Castillo Wulff<br>
+					07	Reloj de Flores<br>
+					08	Jumbo - Shopping Portal Valparaiso<br>
+					09	Ascensor Baron<br>
+					10	Mirador Baron<br>
+					11	Jumbo - Shopping Portal Valparaiso<br>
+					12	Arco Britânico<br>
+					13	La Sebastiana<br>
+					14	Estacionamento Urriola<br>
+					15	Ascensor Reina Victoria<br>
+					16	Escada Piano ( Cerro Alegre )<br>
+					17	Paseo Atkinson<br>
+					18	Paseo Mirador<br>
+					19	Séptima Pasteleria ( Cerro Concepcion )<br>
+					20	Paseo Gervasoni<br>
+					21	Pasaje Gálvez Arte Callejero<br>
+					22	Escada Colorida<br>
+					23	Porta Vermelha<br>
+					24	Estacionamento Urriola<br>
+					25	La Dulceria<br>
+					26	Plaza Sotomayor<br>
+					27  Mirador Faro Punta Angeles<br>
+					28	A Mano Gin & Burgers<br>
+					29	Hospedagem - Airbnb<br>
+				</p>
+			</aside>
+
+			<!--<footer>
+				<p>
+					<a href="#">home</a>
+		            <a href="#">Exposições</a>
+		            <a href="#">Pesquisa</a>
+		            <a href="#">acervo</a>
+		            <a href="#">vídeos</a>
+		            <a href="#">fotos</a>
+		            <a href="#">contato</a>
+				</p>
+				<p>
+					2019 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+				</p>
+			</footer>-->
+
+		</div><!--/fim principal -->
+
+	</div><!--/fim container -->
+
+
+
+</body>
+</html>

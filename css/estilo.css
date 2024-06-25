@@ -1,0 +1,191 @@
+/* Estrutura do site
+------------------------------------ */
+body {
+	background: #decb94 url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #227115;
+}
+
+/* Logo 
+------------------------------------ */
+#logo h1 {
+	float: left;
+}
+
+#logo a {
+	width: 300px;
+	height: 35px;
+	text-indent:  -9999px;
+	display: block;
+	background: url(../img/logo_chile.png) no-repeat;
+}
+
+
+/* Barra de navegação 
+------------------------------------ */
+header {
+	padding: 15px 0;
+	height: 55px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+/* Principal 
+------------------------------------ */
+
+#map {
+	width: 675px;
+  height: 800px;
+	border: 10px solid #acd4dc;
+	float: left;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+
+#roteiro {
+	width: 350px;
+	height: 796px;
+	border: 10px solid #478692;
+	border-radius: 25px;
+	float: right;
+	background: #478692;
+	align-content: center;
+	margin-right: 8px;
+	color:#ffffff;
+}
+
+.titulo {
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.data {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.lista {
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+.lista2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 4px;
+	text-decoration: none;
+}	
+
+.teste {
+	color: white !important;
+}
+
+img {
+	width: 300px;
+}	
+
+.img2 {
+	width: 23px; /* Largura do círculo */
+	height: 23px; /* Altura do círculo */
+	margin-right: 10px; /* Espaço entre o círculo e o texto */
+	margin-bottom: 0px;
+	margin-top: 0px;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5px;
+}
+
+.custom-marker {
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Estilo para o contêiner */
+.precircle {
+	display: flex;
+	align-items: center; /* Alinha os itens verticalmente no centro */
+}
+
+/* Estilo para o círculo numerado */
+.circle {
+	background-color: #f40a02; /* Cor de fundo do círculo */
+	color: white; /* Cor do texto */
+	width: 20px; /* Largura do círculo */
+	height: 20px; /* Altura do círculo */
+	border-radius: 50%; /* Torna o elemento circular */
+	display: flex; /* Habilita flexbox para centralização */
+	justify-content: center; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+	font-size: 12px; /* Tamanho da fonte */
+	font-weight: bold; /* Texto em negrito */
+	margin-right: 5px; /* Espaço entre o círculo e o texto */
+	margin-bottom: 4px;
+}
+
+
+	
+
+
+
+
+
+/* Rodapé
+------------------------------------ */
+footer {
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+	margin-top: 20px;
+}
+
+footer>p a {
+	padding: 2px 10px;
+}
