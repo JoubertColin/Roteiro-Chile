@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 #map {
 	width: 675px;
-  height: 800px;
+  height: 850px;
 	border: 10px solid #acd4dc;
 	float: left;
 	margin-bottom: 20px;
@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 #roteiro {
 	width: 350px;
-	height: 796px;
+	height: 846px;
 	border: 10px solid #478692;
 	border-radius: 25px;
 	float: right;
@@ -167,6 +167,10 @@ img {
 	font-weight: bold; /* Texto em negrito */
 	margin-right: 5px; /* Espaço entre o círculo e o texto */
 	margin-bottom: 4px;
+}
+
+.green {
+	background-color: #31ae44;
 }
 
 
